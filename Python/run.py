@@ -12,7 +12,7 @@ Rapi = Api(app)
 
 @app.route('/', methods=['GET'])
 def index():
-    return {'version': 'Pomidor - version 1.2.3'}, 200
+    return {'version': 'version 1.0.0'}, 200
 
 
 app.debug = True
